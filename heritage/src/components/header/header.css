@@ -1,0 +1,57 @@
+header {
+    height: 70px;
+    padding: 0 20px;
+}
+
+header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+#header-logo {
+    float: left;
+    /* width: 70px; */
+    height: 65px;
+    display: inline-block;
+}
+
+#header-btn {
+    /* display: inline-block; */
+    float: right;
+    background-color: #90499B;
+    color: white;
+    font-size: 1.3em;
+    border: 2px solid #90499B;
+    margin-top: 12px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+
+}
+
+
+#header-btn:hover {
+    background-color: white;
+    color: #90499B;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0);
+-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0);
+box-shadow: 0px 0px 11px 0px rgba(0,0,0,0);
+}
+
+#header-btn:active {
+    position: relative;
+    top: 2px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #90499B;
+    font-size: 1.5em;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
