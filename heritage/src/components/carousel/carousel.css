@@ -1,9 +1,0 @@
-#carousel-div {
-    height: calc(100vh - 160px);
-    width: 100vw;
-    /* background-color: red; */
-    background-image: url('https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-    margin: 0 auto;
-    background-size: cover;
-    background-attachment: fixed;
-}
