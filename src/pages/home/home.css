@@ -16,6 +16,8 @@ Header {
     height: 100%;
     object-fit: cover;
     width: 100%;
+    margin-bottom: 350px;
+   
 }
 
 #intro-outer-wrapper {
@@ -24,6 +26,8 @@ Header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 100px;
 }
 
 #intro-inner-wrapper {
